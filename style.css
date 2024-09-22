@@ -51,10 +51,10 @@ body{
     transform: translateY(-50%);
     cursor: pointer;
 }
-.list .checked{
+.list li.checked{
     color: rgb(65, 56, 56);
     text-decoration: line-through;
 }
-.list .checked .fa-square-check{
+.list li.checked .fa-square-check{
     color: rgb(65, 56, 56);
 }
